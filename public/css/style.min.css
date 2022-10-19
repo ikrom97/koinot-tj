@@ -1371,6 +1371,17 @@ a {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  min-height: 540px;
+}
+@media (max-width: 1280px) {
+  .board {
+    min-height: 400px;
+  }
+}
+@media (max-width: 992px) {
+  .board {
+    min-height: 320px;
+  }
 }
 .board__container {
   padding: 32px 64px;

@@ -11,6 +11,15 @@
   background-position: center;
   width: 100%;
   object-fit: cover;
+  min-height: 540px;
+
+  @media (max-width: @desktop-width) {
+    min-height: 400px;
+  }
+
+  @media (max-width: @device-lg) {
+    min-height: 320px;
+  }
 }
 
 .board__container {
