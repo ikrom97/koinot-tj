@@ -12,10 +12,12 @@
   <meta name="description" content="{{ $share_text }}">
   <meta property="og:description" content="{{ $share_text }}">
   <meta property="og:title" content="{{ $data->news->title }}" />
-  <meta property="og:image" content="{{ asset($data->news->img) }}">
   <meta property="og:image:alt" content="{{ $data->news->title }}">
   <meta name="twitter:title" content="{{ $data->news->title }}">
-  <meta name="twitter:image" content="{{ asset($data->news->img) }}">
+  @if (count($data->news->images) > 0)
+    <meta property="og:image" content="{{ asset($data->news->images[0]->src) }}">
+    <meta name="twitter:image" content="{{ asset($data->news->images[0]->src) }}">
+  @endif
 @endsection
 
 @section('content')
