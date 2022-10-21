@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  Коиноти нав | Новости
+  КОИНОТИ НАВ | Новости
 @endsection
 
 @section('content')

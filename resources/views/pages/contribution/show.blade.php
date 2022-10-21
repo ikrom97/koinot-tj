@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  Коиноти нав | Вклад в общество
+  КОИНОТИ НАВ | Вклад в общество
 @endsection
 
 @section('meta-tags')

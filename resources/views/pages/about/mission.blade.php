@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  Коиноти нав | Миссия, Видение, Ценности
+  КОИНОТИ НАВ | Миссия, Видение, Ценности
 @endsection
 
 @section('content')
