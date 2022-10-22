@@ -41,7 +41,7 @@
           <div class="form__content">
             <div class="content">
               <h2>Пройди тест и стань<br>
-                частью нашей команды</h2>
+                частью нашей команды!</h2>
             </div>
           </div>
 
