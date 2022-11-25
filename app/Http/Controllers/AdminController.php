@@ -221,7 +221,7 @@ class AdminController extends Controller
               public_path('img/news/thumbs/' . $fileName)
             );
             $img->src = 'img/news/' . $fileName;
-            $img->thumb_src = 'img/news/thumbs' . $fileName;
+            $img->thumb_src = 'img/news/thumbs/' . $fileName;
             $img->save();
           }
         }
