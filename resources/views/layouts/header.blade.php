@@ -105,6 +105,12 @@
           </a>
         </li>
 
+        <li class="page-nav__item">
+          <a class="page-nav__link" href="https://sport.koinotinav.com/" target="_blank">
+            Кубок КОИНОТИ НАВ
+          </a>
+        </li>
+
         <li class="page-nav__item {{ $route == 'contacts' ? 'page-nav__item--current' : '' }}">
           <a class="page-nav__link" href="{{ route('contacts') }}">
             Контакты
@@ -119,6 +125,10 @@
           </svg>
         </span>
         Карьера
+      </a>
+
+      <a class="carrier-link carrier-link--current" href="https://sport.koinotinav.com/" target="_blank">
+        Кубок КОИНОТИ НАВ
       </a>
     </div>
   </nav>
