@@ -7,9 +7,6 @@
 
 namespace App\Helpers;
 
-use App\Models\Content;
-use App\Models\Text;
-
 class Helper
 {
   public static function resize_crop_image($max_width, $max_height, $source_file, $dst_dir, $quality = 80)

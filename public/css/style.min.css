@@ -1566,7 +1566,6 @@ a {
 }
 .news-card__img {
   width: 100%;
-  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 32px;
@@ -2337,18 +2336,16 @@ a {
   color: #ff5635;
 }
 .form-dash__images {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
 }
 .form-dash__images img {
   border-radius: 4px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-.form-dash__images [data-img] {
-  margin-right: 8px;
-  margin-bottom: 8px;
+  width: 100%;
 }
 .form-dash__images [data-img]:hover {
   position: relative;
