@@ -1012,6 +1012,7 @@ a {
   background-color: #3c324c;
   color: #fff;
   background-image: url('../img/anim-bg.png');
+  background-size: cover;
 }
 @media (max-width: 992px) {
   .page-nav {
