@@ -43,6 +43,11 @@
           </a>
         </dd>
         <dd class="page-footer__menu-item">
+          <a class="page-footer__menu-link" href="https://sport.koinotinav.com/" target="_blank">
+            Кубок &#8220;КОИНОТИ НАВ&#8221;
+          </a>
+        </dd>
+        <dd class="page-footer__menu-item">
           <a class="page-footer__menu-link" href="{{ route('carrier') }}">
             Карьера
           </a>
