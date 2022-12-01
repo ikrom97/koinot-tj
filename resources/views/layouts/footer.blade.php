@@ -1,5 +1,8 @@
 <footer class="page-footer">
   <div class="page-footer__top">
+    <div class="anim"></div>
+    <div class="anim second"></div>
+    <div class="anim third"></div>
     <dl class="page-footer__menu">
       <div class="page-footer__menu-list">
         <dt class="page-footer__menu-caption">О нас</dt>
@@ -37,11 +40,6 @@
         <dd class="page-footer__menu-item">
           <a class="page-footer__menu-link" href="{{ route('contribution') }}">
             Вклад в общество
-          </a>
-        </dd>
-        <dd class="page-footer__menu-item">
-          <a class="page-footer__menu-link" href="https://sport.koinotinav.com/" target="_blank">
-            Кубок КОИНОТИ НАВ
           </a>
         </dd>
         <dd class="page-footer__menu-item">
