@@ -24,6 +24,7 @@
 
   <main class="login-page">
     <form class="login-page__form form" action="{{ route('auth.check') }}" method="post">
+      @csrf
       <div class="form__content">
         <h1>Вход</h1>
       </div>
