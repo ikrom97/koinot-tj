@@ -1,5 +1,7 @@
 const headers = {
-  'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+  accept: 'application/json',
+  'User-agent': 'learning app',
+  'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
 };
 const formEl = document.querySelector('.form');
 const loginFieldEl = formEl.querySelector('input[name="login"]');
