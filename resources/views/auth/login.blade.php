@@ -32,14 +32,14 @@
       <div class="form__element">
         <label class="form__label">
           <span class="visually-hidden">Логин</span>
-          <input class="form__field" name="login" type="text" placeholder="example@domain.com" autocomplete="off" required required data-pristine-required-message="Объязательное поле">
+          <input class="form__field" name="login" type="text" placeholder="example@domain.com" autocomplete="off" required data-pristine-required-message="Объязательное поле">
         </label>
         <div class="form__error form__error--login"></div>
       </div>
       <div class="form__element">
         <label class="form__label">
           <span class="visually-hidden">Пароль</span>
-          <input class="form__field" name="password" type="password" placeholder="********" autocomplete="off" required required data-pristine-required-message="Объязательное поле">
+          <input class="form__field" name="password" type="password" placeholder="********" autocomplete="off" required data-pristine-required-message="Объязательное поле">
         </label>
         <div class="form__error form__error--password"></div>
       </div>
