@@ -1,3 +1,3 @@
-import { initLoginForm } from '../../login-form.js';
+// import { initLoginForm } from '../../login-form.js';
 
-initLoginForm();
+// initLoginForm();
